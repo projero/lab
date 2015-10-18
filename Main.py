@@ -41,6 +41,7 @@ class Triangle:
         self.c = c
 
     def perimeter(self):
+        print("Developer brunch")
         return self.a + self.b + self.c
 
     def square(self):
