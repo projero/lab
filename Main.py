@@ -19,6 +19,7 @@ class Time:
         return "Time to midnight : " + str(hours) + ":" + str(minutes) + ":" + str(seconds) + "."
 
     def __str__(self):
+        print(self.hours)
         return 'Time %d:%d:%d' % (self.hours, self.minutes, self.seconds)
 
 class TrainTime(Time):
